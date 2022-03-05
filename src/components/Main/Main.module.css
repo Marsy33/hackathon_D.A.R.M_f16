@@ -1,0 +1,69 @@
+.main {
+  display: flex;
+  justify-content: space-around;
+}
+
+.left_component, .right_component{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  height: 100vh;
+
+}
+
+.left_component{
+  background-image: url(../../shared/img/pexels-photo.jpeg);
+  background-size: cover;
+}
+
+.right_component{
+  background-image: url(../../shared/img/pexels-photo-9169661.webp);
+  background-size: cover;
+  background-position-y: 70%;
+}
+
+.block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 150px;
+  background-color: #fcbd34;
+  border-radius: 5px;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.text {
+  color: #ffffff;
+  margin-top: 10px;
+  background-color: rgba(1, 1, 1, 0.6);
+  border-radius: 5px;
+  padding: 5px 15px;
+  width: 165px;
+}
+
+.text li {
+  list-style: none;
+  position: relative;
+}
+
+.text li::before {
+  content: '•';
+  position: absolute;
+  left: -10px
+}
+
+.donators {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text_thk {
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
