@@ -1,0 +1,41 @@
+.header_cont {
+    background-color: rgb(10, 10, 10);
+    height: 80px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+}
+
+.header {
+    width: 70vw;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__logo {
+    height: 60%;
+}
+
+nav {
+    display: flex;
+    column-gap: 5vw;
+}
+
+.header__links {
+    color: white;
+    text-decoration: dotted;
+    font-size: 1.1em;
+    font-weight: 400;
+}
+
+.header__links:hover {
+    color: #fcbd34;
+}
+
+.header__links:visited {
+    color: white;
+}
