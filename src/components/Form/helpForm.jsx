@@ -34,7 +34,7 @@ class HelpForm extends React.Component {
   };
   render() {
     return (
-      <div>
+      <div className="form">
         <form>
           <p className="label">Full Name</p>
           <input
