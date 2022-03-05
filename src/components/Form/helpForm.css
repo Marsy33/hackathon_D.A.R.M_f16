@@ -1,0 +1,40 @@
+.label {
+  color: rgb(58, 56, 56);
+  text-align: start;
+  margin-left: 20vw;
+  margin-bottom: 1vh;
+}
+
+.form_input {
+  border: 1px solid rgb(189, 177, 177);
+  border-radius: 5px;
+  width: 60vw;
+  height: 5vh;
+  font-size: 2.5vh;
+}
+
+.form_comment {
+  border: 1px solid rgb(189, 177, 177);
+  border-radius: 5px;
+  width: 60vw;
+  height: 20vh;
+  font-size: 2.5vh;
+  margin-bottom: 2vh;
+}
+
+.btnForm {
+  background-color: #fcbd34;
+  border: 1px solid #fcbd34;
+  width: 12vw;
+  height: 8vh;
+  color: white;
+  font-size: 3.5vh;
+  margin-left: -45vw;
+}
+
+.contact {
+  text-align: start;
+  margin-left: 19vw;
+  margin-top: 7vh;
+  color: gray;
+}
