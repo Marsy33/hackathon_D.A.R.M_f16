@@ -1,14 +1,16 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { donators } from '../../shared/projectData';
+import { HelpForm } from '../Form/HelpForm';
 import { Slider } from '../Slider/Slider';
 import styles from './Main.module.css';
 
 export const Main = () => {
+  const [showForm, setShowForm] = useState(false)
   return (
     <div className="wrapper">
       <div className={styles.main}>
         <div className={styles.left_component}>
-          <div className={styles.block}>
+          <div className={styles.block} onClick={() => setShowForm(true)}>
             I need Help
           </div>
           <ul className={styles.text}>
@@ -18,7 +20,7 @@ export const Main = () => {
           </ul>
         </div>
         <div className={styles.right_component}>
-          <div className={styles.block}>
+          <div className={styles.block} onClick={() => setShowForm(true)}>
             I want to Help
           </div>
           <ul className={styles.text}>
@@ -35,6 +37,13 @@ export const Main = () => {
         </h2>
         <Slider />
       </div>
+
+      {
+        showForm && (
+          <HelpForm setShowForm={setShowForm} />
+        )
+      }
+
     </div>
   )
 }

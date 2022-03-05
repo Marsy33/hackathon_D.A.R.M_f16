@@ -1,0 +1,71 @@
+.footer_cont {
+    background-color: rgb(10, 10, 10);
+    height: 280px;
+    width: 100%;
+    bottom: 0;
+}
+
+.footer {
+    width: 70vw;
+    height: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 10vw;
+    align-content: center;
+}
+
+.footer__about {
+    grid-column: 1/2;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.footer__contacts {
+    grid-column: 2/3;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+h4 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: 1.2em;
+    font-weight: 500;
+    color: white;
+}
+
+menu {
+    padding: 0;
+}
+
+li {
+    text-decoration: none;
+    list-style-type: none;
+    margin-bottom: 12px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.footer__contacts__images {
+    margin-right: 15px;
+    height: 1.4em;
+}
+
+p, li {
+    color: white;
+    text-align: left;
+}
+
+.rights {
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+.footer__contacts__networks img {
+    height: 1.6em;
+    margin-right: 15px;
+}
